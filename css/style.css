@@ -1,0 +1,123 @@
+:root{
+    --bg :#F4F4F4;
+    --clr-3: #BAD7E9;
+    --clr-2:#EB455F;
+    --clr-1:#2B3467;
+}
+html , body {
+    overflow-x: hidden!important;
+}
+.clr-b{
+    color: var(--clr-3);
+}
+.clr-p{
+    color: var(--clr-2);
+}
+body{
+    background-color: var(--bg);
+    color: var(--clr-1);
+    font-family: 'Marhey', cursive;
+    /* font-family: 'klash-Tu'; */
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--clr-3)
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: var(--clr-2)
+}
+.sec-1 h1 {
+    color: var(--clr-3);
+}
+spam{
+    color: var(--clr-2)!important;
+}
+p {
+    font-size: 16px;
+}
+.card{
+    border-radius: 20px;
+}
+.card-title {
+    color: var(--clr-3)
+}
+.btn{
+    background-color: var(--clr-1)!important;
+    padding: 10px 28px;
+    border: none!important;
+    border-radius: 10px!important;
+    color: white!important;
+}
+.btn:hover{
+    background-color: var(--clr-2)!important;
+    color: white!important;
+}
+
+.social {
+    margin-right: 37%!important;
+}
+
+
+li a :hover{
+    color: var(--clr-2);
+}
+
+.form-control{
+    border: none!important;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .sec-1{
+        height: 92%!important;
+        margin-top: 12%!important;
+    }  
+    .sec1-p{
+        margin-top: 70%;
+    }
+    .sec1-imgs{
+        margin-top: -310%!important;
+    }
+    .social {
+        margin-right: 9%!important;
+    }
+}
+@media only screen and (min-width: 376px)and (max-width: 600px) {
+    .sec-1{
+        height: 92%!important;
+        margin-top: 12%!important;
+    }  
+    .sec1-p{
+        margin-top: 100%;
+    }
+    .sec1-imgs{
+        margin-top: -300%!important;
+    }
+    .social {
+        margin-right: 9%!important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sec-1{
+        height: 95vh!important;
+        margin-top: -2%!important;
+    }
+.sec-6 {
+        width: 80%!important;
+    
+}
+.card{
+    width:15rem!important;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.sec-1{
+    padding-top: 2%!important;
+    height: 100vh!important;
+    
+}
+}
