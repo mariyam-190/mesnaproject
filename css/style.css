@@ -126,9 +126,9 @@ li a :hover {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1320px) {
   .sec-1 {
-    padding-top: 2% !important;
+    padding-top: 20% !important;
     height: 100vh !important;
   }
 }
